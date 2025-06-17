@@ -32,6 +32,7 @@ async function getNewsDetail(id: string) {
 		return news;
 	} catch (error) {
 		return null;
+		console.log(error);
 	}
 }
 
