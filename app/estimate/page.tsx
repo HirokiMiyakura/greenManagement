@@ -50,7 +50,9 @@ export default function Home() {
 					</h2>
 					<div className="max-w-3xl mx-auto space-y-12">
 						<div className="space-y-4">
-							<h3 className="text-2xl font-bold text-gray-900">丁寧な草刈り作業</h3>
+							<h3 className="text-2xl font-bold text-gray-900">
+								丁寧な草刈り作業
+							</h3>
 							<p className="text-gray-600 leading-relaxed">
 								プロの技術と最新の機材を駆使し、お庭の美観を完璧に保ちます。雑草の種類や成長状況に応じた最適な刈り高調整、安全で効率的な作業で、常に清潔で美しい庭を維持。定期的なメンテナンスで、お庭の価値を最大限に引き出します。
 							</p>
@@ -64,7 +66,9 @@ export default function Home() {
 						</div>
 
 						<div className="space-y-4">
-							<h3 className="text-2xl font-bold text-gray-900">草刈り後の整地</h3>
+							<h3 className="text-2xl font-bold text-gray-900">
+								草刈り後の整地
+							</h3>
 							<p className="text-gray-600 leading-relaxed">
 								草刈り後の刈り草の回収、整地作業まで徹底的に行います。お庭の見た目を美しく保つだけでなく、雑草の再発を防ぐための環境整備も実施。お客様のご要望に応じて、細部まで丁寧に仕上げます。
 							</p>
@@ -110,7 +114,9 @@ export default function Home() {
 									className="object-cover transition-transform group-hover:scale-105"
 								/>
 							</div>
-							<h3 className="text-lg font-bold mb-2">太陽光発電所メンテナンス</h3>
+							<h3 className="text-lg font-bold mb-2">
+								太陽光発電所メンテナンス
+							</h3>
 							<p>埼玉県鳩山町</p>
 						</div>
 						<div>
@@ -126,13 +132,13 @@ export default function Home() {
 							<p>埼玉県坂戸市</p>
 						</div>
 					</div>
-					
+
 					<div className="text-center mt-12">
 						<Link
 							href="/cases"
 							className="inline-block bg-transparent text-green-600 hover:text-white px-12 py-4 rounded-full hover:bg-green-600 transition-colors text-center border-1"
 						>
-							施工事例をもっと見る<span className="ps-6">></span>
+							施工事例をもっと見る<span className="ps-6">&gt;</span>
 						</Link>
 					</div>
 				</div>
@@ -375,7 +381,7 @@ export default function Home() {
 								href="/faq"
 								className="inline-block bg-transparent text-green-600 hover:text-white px-12 py-4 rounded-full hover:bg-green-600 transition-colors text-center border-1"
 							>
-								よくあるご質問一覧を見る<span className="ps-6">></span>
+								よくあるご質問一覧を見る<span className="ps-6">&gt;</span>
 							</Link>
 						</div>
 					</div>
