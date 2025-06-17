@@ -28,7 +28,7 @@ export default function ContactCTA({
 						お問い合わせ<span className="ps-4">&gt;</span>
 					</Link>
 					<Link
-						href="/estimate"
+						href="/contact"
 						className="bg-transparent text-gray-900 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors text-center border-2 border-gray-300 hover:border-gray-400"
 					>
 						簡単お見積もり<span className="ps-4">&gt;</span>
