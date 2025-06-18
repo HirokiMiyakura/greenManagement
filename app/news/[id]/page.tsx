@@ -39,9 +39,10 @@ async function getNewsDetail(id: string) {
 export default async function NewsDetail({
 	params,
 }: {
-	params: { id: string };
+	params: Promise<{ id: string }>;
 }) {
-	const news = await getNewsDetail(params.id);
+	const { id } = await params;
+	const news = await getNewsDetail(id);
 
 	if (!news) {
 		notFound();
